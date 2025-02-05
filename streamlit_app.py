@@ -4,8 +4,8 @@ from llama_index.core import VectorStoreIndex, SimpleDirectoryReader, Settings
 from llama_index.embeddings.gemini import GeminiEmbedding
 
 
-st.set_page_config(page_title="Chat with an expert on the works of Rabindranath Tagore", page_icon="🦙", layout="centered", initial_sidebar_state="auto", menu_items=None)
-st.title("Chat with an expert on the works of Rabindranath Tagore")
+st.set_page_config(page_title="SJSU Brand Style Guide from May 2021", page_icon="🦙", layout="centered", initial_sidebar_state="auto", menu_items=None)
+st.title("SJSU Brand Style Guide from May 2021")
 
 
 if "messages" not in st.session_state.keys():  # Initialize the chat messages history
